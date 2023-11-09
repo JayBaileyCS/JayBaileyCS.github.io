@@ -7,7 +7,19 @@ redirect_from:
   - /resume
 ---
 
-<iframe src="https://docs.google.com/viewer?embedded=true&url=jaybaileycs.github.io/files/Jay_Bailey.pdf" width="100%" height="600px" style="border: none;"></iframe>
-
-<!-- Fallback link for browsers that don't support iframes or when the Google Docs Viewer is not available -->
-<p>If you cannot view the PDF, please download it: <a href="/files/Jay_Bailey.pdf">Download PDF</a>.</p>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Redirect to PDF Viewer</title>
+  <script>
+    // Redirect to the PDF's URL as soon as the page loads
+    window.onload = function() {
+      window.location.href = '/files/Jay_Bailey.pdf';
+      // This will take the user directly to the PDF viewer in their browser.
+    };
+  </script>
+</head>
+<body>
+  <p>If you do not see the PDF, please <a href="/files/Jay_Bailey.pdf">click here</a> to view it.</p>
+</body>
+</html>
