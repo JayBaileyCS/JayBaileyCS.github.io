@@ -1,10 +1,10 @@
 # main links links
 main:
   - title: "Research"
-    url: /publications/
+    url: /research/
 
   - title: "CV"
-    url: /Jay_Bailey.pdf
+    url: /cv/
 
   - title: "Writing"
     url: /writing/
