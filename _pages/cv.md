@@ -7,9 +7,7 @@ redirect_from:
   - /resume
 ---
 
-<!-- Embed PDF within the page -->
-<object data="/files/Jay_Bailey.pdf" type="application/pdf" width="100%" height="600px">
-    <embed src="/files/Jay_Bailey.pdf" type="application/pdf" />
-    <!-- Fallback link for browsers that don't support embedding -->
-    <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/files/Jay_Bailey.pdf">Download PDF</a>.</p>
-</object>
+<iframe src="https://docs.google.com/viewer?embedded=true&url=jaybaileycs.github.io/files/Jay_Bailey.pdf" width="100%" height="600px" style="border: none;"></iframe>
+
+<!-- Fallback link for browsers that don't support iframes or when the Google Docs Viewer is not available -->
+<p>If you cannot view the PDF, please download it: <a href="/files/Jay_Bailey.pdf">Download PDF</a>.</p>
