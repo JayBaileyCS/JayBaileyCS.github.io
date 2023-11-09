@@ -1,3 +1,10 @@
+---
+layout: writing
+title: "Writing"
+permalink: /writing/
+author_profile: true
+---
+
 ## Writing
 
 This page is for non-technical writing that I've done that doesn't fall under the purview of research.

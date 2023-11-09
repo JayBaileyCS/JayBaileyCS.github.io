@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Testing"
+title: "About Jay Bailey"
 excerpt: "About me"
 author_profile: true
 redirect_from:
